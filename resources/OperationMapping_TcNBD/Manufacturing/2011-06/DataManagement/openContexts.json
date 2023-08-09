@@ -1,0 +1,29 @@
+{
+    "ServiceOperation": "Manufacturing-2011-06-DataManagement\/openContexts",
+    "InputType":        "TcNBD.OpenContextsInput",
+    "ResponseType":     "TcConnector.ServiceResponse",
+    "ObjectMapping":    "",
+    "OperationInput":
+	{
+		"input":
+			[{
+				"object": "$Input\/TcNBD.OpenContextsInput_WorkspaceObject",
+				"openViews": "$Input\/openViews",
+				"openAssociatedContexts": "$Input\/openAssociatedContexts",
+				"contextSettings":
+				{
+					"type": "ItemRevision",
+					"boolProps":
+						{
+						"ShowSuppressedOccs": true,
+						"ShowUnconfiguredAssignedOccurrences": true,
+						"ShowUnconfiguredVariants": true,
+						"ShowUnconfiguredChanges": true,
+						"ShowUnconfiguredOccurrencesEffectivity": true
+						}
+				}
+			}]
+	}
+	,
+    "OperationResponse": {}
+}

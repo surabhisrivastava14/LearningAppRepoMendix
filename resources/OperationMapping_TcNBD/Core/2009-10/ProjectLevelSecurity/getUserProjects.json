@@ -1,0 +1,22 @@
+{
+    "ServiceOperation": "Core-2009-10-ProjectLevelSecurity\/getUserProjects",
+    "InputType": "TcNBD.getUserProjectsInput",
+    "ResponseType": "",
+    "ObjectMapping": "",
+    "OperationInput": 
+		{
+		"userProjectsInfoInputs":
+		[{
+			"user": "$Input\/TcNBD.getUserProjectsInput_User",
+			"activeProjectsOnly": "$Input\/activeProjectsOnly",
+			"privilegedProjectsOnly": "$Input\/privilegedProjectsOnly",
+			"programsOnly": "$Input\/programsOnly",
+			"clientId": "$Input\/clientId"
+		}]
+		}
+	
+	,
+    "OperationResponse": {}
+
+}
+

@@ -1,0 +1,39 @@
+{
+   "ServiceOperation" : "Classification-2007-01-Classification/getClassificationObjects",
+    "InputType":        "TcNBD.getClassificationObjects_input",
+    "ResponseType":     "",
+    "ObjectMapping":    "",
+	
+   "OperationInput" : {
+      "clsObjTags" : ["$Input\/TcNBD.getClassificationObjects_input_ClassificationObject"]
+   },
+   
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "clsObjs" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "instanceId" : "String",
+               "clsObjTag" : "IModelObject",
+               "unitBase" : "UNSPECIFIED METRIC ENGLISH",
+               "wsoId" : "IModelObject",
+               "properties" : [
+                  {
+                     "attributeId" : "int",
+                     "values" : [
+                        {
+                           "dbValue" : "String",
+                           "displayValue" : "String"
+                        }
+                     ]
+                  }
+               ],
+               "classId" : "String"
+            }
+         ]
+      ]
+   }
+}

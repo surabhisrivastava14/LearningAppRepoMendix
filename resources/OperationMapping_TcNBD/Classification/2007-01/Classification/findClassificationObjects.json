@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Classification-2007-01-Classification/findClassificationObjects",
+    "InputType":        "TcNBD.findClassificationObjects_input",
+    "ResponseType":     "TcNBD.findClassificationObjects_response",
+    "ObjectMapping":    "",
+	
+   "OperationInput" : {
+      "wsoIds" : ["$Input\/TcNBD.findClassificationObjects_input_ModelObject"]
+   },
+   
+   "OperationResponse" : {
+   }
+}

@@ -1,0 +1,11 @@
+{
+	"ServiceOperation" : "Core-2007-09-DataManagement\/loadObjects",
+	"InputType":        "TcNBD.LoadObjects_input",
+    "ResponseType":     "",
+    "ObjectMapping":    "",
+
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "uids" : "$Input\/TcNBD.LoadObjects_UID_LoadObjects_input\/UID;AttributeAsArray" 
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "instanceIdQueries" : "String[]"
+   },
+   "OperationResponse" : {
+      "clsObjTags" : {
+         "SampleKeyString" : "IModelObject[]"
+      },
+      "data" : "IServiceData"
+   },
+   "ServiceOperation" : "Classification-2007-01-Classification/searchByInstanceId"
+}

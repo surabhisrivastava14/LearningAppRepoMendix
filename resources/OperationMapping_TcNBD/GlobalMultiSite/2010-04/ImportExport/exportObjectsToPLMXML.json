@@ -1,0 +1,28 @@
+{
+    "ServiceOperation": "GlobalMultiSite-2010-04-ImportExport\/exportObjectsToPLMXML",
+    "InputType": "TcNBD.exportObjectsToPLMXMLInput",
+    "ResponseType": "TcNBD.exportObjectsToPLMXMLResponse",
+    "ObjectMapping": "",
+    "OperationInput": 
+	
+	{
+		"exportObjects": ["$Input\/TcNBD.Objects"],
+		"transfermode": "$Input\/TcNBD.transfermode",
+		"revRule": "$Input\/TcNBD.revRule_plmxml",
+		"xmlFileName": "$Input\/xmlFileName"
+	}	
+	
+	,
+    "OperationResponse": 
+	
+	{
+		"xmlFileTicket":"$Response\/TcNBD.xmlFileTicket",
+		"logFileTicket": "$Response\/TcNBD.logFileTicket",
+		"namedRefFileTickets": ["$Response\/TcNBD.namedRefFileTickets"]
+		
+	}
+	
+
+}
+
+

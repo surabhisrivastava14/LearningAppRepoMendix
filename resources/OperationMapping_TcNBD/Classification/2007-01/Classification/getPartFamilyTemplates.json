@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Classification-2007-01-Classification/getPartFamilyTemplates",
+   "OperationResponse" : {
+      "wsos" : {
+         "SampleKeyString" : "IModelObject[]"
+      },
+      "data" : "IServiceData"
+   },
+   "OperationInput" : {
+      "clsClassIds" : "String[]"
+   }
+}

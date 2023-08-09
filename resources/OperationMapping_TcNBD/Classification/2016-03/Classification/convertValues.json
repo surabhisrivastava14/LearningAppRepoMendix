@@ -1,0 +1,27 @@
+{
+   "OperationResponse" : {
+      "svcData" : "IServiceData",
+      "convertedValues" : [
+         {
+            "convertedValues" : "String[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "valueConversionInputs" : [
+         {
+            "inputValues" : "String[]",
+            "options" : "int",
+            "outputUnit" : "String",
+            "outputFormat" : {
+               "formatType" : "int",
+               "formatModifier1" : "int",
+               "formatModifier2" : "int",
+               "formatLength" : "int"
+            },
+            "inputUnit" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Classification-2016-03-Classification/convertValues"
+}

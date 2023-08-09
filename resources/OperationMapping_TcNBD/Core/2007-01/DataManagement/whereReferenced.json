@@ -1,0 +1,13 @@
+{
+	"ServiceOperation" : "Core-2007-01-DataManagement\/whereReferenced",
+	"InputType":        "TcNBD.WhereReferenced_input",
+    "ResponseType":     "TcNBD.WhereReferenced_response",
+    "ObjectMapping":    "",
+
+   "OperationInput" : {
+      "objects" : ["$Input\/TcNBD.WhereReferenced_input_ModelObject"],
+      "numLevels" : "$Input\/Level"
+   },
+   "OperationResponse" : {
+   }
+}

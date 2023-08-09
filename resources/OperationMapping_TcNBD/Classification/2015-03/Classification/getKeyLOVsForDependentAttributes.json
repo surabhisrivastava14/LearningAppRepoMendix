@@ -1,0 +1,42 @@
+{
+   "ServiceOperation" : "Classification-2015-03-Classification/getKeyLOVsForDependentAttributes",
+   "OperationResponse" : {
+      "dependencyKeyLOVs" : [
+         {
+            "keyLOVDefinition" : {
+               "options" : "int",
+               "id" : "String",
+               "keyLovEntries" : [
+                  {
+                     "deprecatedSatus" : "bool",
+                     "lovKey" : "String",
+                     "lovValue" : "String"
+                  }
+               ],
+               "keyLovtag" : "IModelObject",
+               "owningSite" : "IModelObject",
+               "sharedSites" : "IModelObject[]",
+               "name" : "String"
+            },
+            "selectedKeys" : "String[]",
+            "attributeID" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "dependencyAttributeStruct" : [
+         {
+            "classID" : "String",
+            "selectedValue" : "String",
+            "selectedAttributeID" : "int",
+            "attributeValues" : [
+               {
+                  "attributeID" : "int",
+                  "value" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

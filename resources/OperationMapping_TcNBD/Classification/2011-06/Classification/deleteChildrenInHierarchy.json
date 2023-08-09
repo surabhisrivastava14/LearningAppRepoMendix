@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "optionsInput" : [
+         {
+            "theChildrenOnlyOption" : "bool",
+            "theWSOOption" : "bool",
+            "theRecurseOption" : "bool",
+            "theIgnoreOption" : "bool",
+            "theIcosOption" : "bool",
+            "id" : "String",
+            "theViewsOption" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Classification-2011-06-Classification/deleteChildrenInHierarchy"
+}

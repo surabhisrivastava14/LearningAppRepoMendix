@@ -1,0 +1,42 @@
+{
+	"ServiceOperation": "Core-2013-05-LOV/getInitialLOVValues",
+	"InputType": "TcNBD.getInitialLOVValuesInput",
+	"ResponseType": "TcNBD.getInitialLOVValuesResponse",
+	"ObjectMapping": "",
+	"OperationInput": {
+		"initialData": {
+			"lov": "AAAAAAAAAAAAAA",
+			"lovInput": {
+				"owningObject": "$InputType/TcNBD.owningObject",
+				"boName": "$InputType/boName",
+				"operationName": "$InputType/operationName"
+			},
+			"propertyName": "$InputType/propertyName",
+			"filterData": {
+				"filterString": "",
+				"maxResults": 2000,
+				"numberToReturn": 50,
+				"sortPropertyName": "",
+				"order": 0
+			}
+		}
+	},
+	"OperationResponse": {
+		"lovValues": [
+			{
+				"uid": "$ResponseType/TcNBD.lovValues/uid",
+				"propInternalValues": {
+					"lov_values": [
+						"$ResponseType/TcNBD.lovValues/TcNBD.propInternalValues/lov_value;AttributeAsArray"
+					]
+				},
+				"propDisplayValues": {
+					"lov_values": [
+						"$ResponseType/TcNBD.lovValues/TcNBD.propDisplayValues/lov_value;AttributeAsArray"
+					]
+				}
+			}
+		],
+		"moreValuesExist": "$ResponseType/moreValuesExist"
+	}
+}

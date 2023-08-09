@@ -1,0 +1,23 @@
+{
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "keyLOVsInput" : [
+         {
+            "sharedSites" : "IModelObject[]",
+            "keyLovtag" : "IModelObject",
+            "owningSite" : "IModelObject",
+            "keyLovEntries" : [
+               {
+                  "lovValue" : "String",
+                  "lovKey" : "String",
+                  "deprecatedSatus" : "bool"
+               }
+            ],
+            "name" : "String",
+            "options" : "int",
+            "id" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Classification-2009-10-Classification/createOrUpdateKeyLOVs"
+}

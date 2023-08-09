@@ -1,0 +1,61 @@
+{
+   "ServiceOperation" : "Classification-2016-03-Classification/getChildrenExtended",
+   "OperationResponse" : {
+      "classDescriptions" : [
+         {
+            "classDescriptions" : [
+               {
+                  "parentDefs" : [
+                     {
+                        "classUnitBase" : "int",
+                        "classID" : "String",
+                        "isAbstract" : "bool",
+                        "className" : "String",
+                        "classIconDocument" : {
+                           "ticket" : "String",
+                           "originalFileName" : "String",
+                           "documentType" : "String"
+                        },
+                        "classIconLoaded" : "bool",
+                        "classBO" : "IModelObject"
+                     }
+                  ],
+                  "classImageDocuments" : [
+                     {
+                        "ticket" : "String",
+                        "documentType" : "String",
+                        "originalFileName" : "String"
+                     }
+                  ],
+                  "classDescription" : "String",
+                  "classUserData1" : "String",
+                  "classImagesLoaded" : "bool",
+                  "classShortName" : "String",
+                  "classUserData2" : "String",
+                  "classDef" : {
+                     "classUnitBase" : "int",
+                     "classID" : "String",
+                     "className" : "String",
+                     "isAbstract" : "bool",
+                     "classBO" : "IModelObject",
+                     "classIconLoaded" : "bool",
+                     "classIconDocument" : {
+                        "ticket" : "String",
+                        "documentType" : "String",
+                        "originalFileName" : "String"
+                     }
+                  },
+                  "classInstanceCount" : "int",
+                  "classChildCount" : "int"
+               }
+            ]
+         }
+      ],
+      "svcData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "classObjects" : "IModelObject[]",
+      "options" : "int",
+      "filterForWriteAccess" : "bool"
+   }
+}

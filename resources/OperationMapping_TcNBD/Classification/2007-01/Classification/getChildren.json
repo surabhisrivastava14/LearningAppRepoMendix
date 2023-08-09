@@ -1,0 +1,29 @@
+{
+   "ServiceOperation" : "Classification-2007-01-Classification/getChildren",
+   "OperationInput" : {
+      "groupOrClassIds" : "String[]"
+   },
+   "OperationResponse" : {
+      "children" : {
+         "SampleKeyString" : [
+            {
+               "childCount" : "int",
+               "instanceCount" : "int",
+               "documents" : [
+                  {
+                     "originalFileName" : "String",
+                     "documentType" : "String",
+                     "ticket" : "String"
+                  }
+               ],
+               "name" : "String",
+               "description" : "String",
+               "type" : "String",
+               "viewCount" : "int",
+               "id" : "String"
+            }
+         ]
+      },
+      "data" : "IServiceData"
+   }
+}

@@ -1,0 +1,45 @@
+{
+   "OperationInput" : {
+      "criteria" : [
+         {
+            "searchString" : "String",
+            "searchAttribute" : "CSA_CLASSID CSA_CLASSNAME CSA_CLASSTYPE CSA_SHORTNAME CSA_GROUPID CSA_USERDATA1 CSA_USERDATA2 CSA_ATTRID CSA_ATTRNAME",
+            "sortOption" : "CSO_CLASSID CSO_CLASSNAME CSO_CLASSTYPE CSO_SHORTNAME CSO_GROUPID CSO_USERDATA1 CSO_USERDATA2 CSO_ATTRID CSO_ATTRNAME"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "classes" : {
+         "SampleKeyInt" : [
+            {
+               "childCount" : "int",
+               "unitBase" : "UNSPECIFIED METRIC ENGLISH",
+               "userData2" : "String",
+               "shortName" : "String",
+               "instanceCount" : "int",
+               "options" : {
+                  "isGroup" : "bool",
+                  "isValid" : "bool",
+                  "isAssembly" : "bool",
+                  "isAbstract" : "bool"
+               },
+               "parent" : "String",
+               "userData1" : "String",
+               "documents" : [
+                  {
+                     "ticket" : "String",
+                     "originalFileName" : "String",
+                     "documentType" : "String"
+                  }
+               ],
+               "name" : "String",
+               "description" : "String",
+               "viewCount" : "int",
+               "id" : "String"
+            }
+         ]
+      },
+      "data" : "IServiceData"
+   },
+   "ServiceOperation" : "Classification-2007-01-Classification/searchForClasses"
+}

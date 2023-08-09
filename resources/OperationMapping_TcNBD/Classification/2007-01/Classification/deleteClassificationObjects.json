@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "clsObjTags" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Classification-2007-01-Classification/deleteClassificationObjects"
+}

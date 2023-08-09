@@ -1,0 +1,32 @@
+{
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "ids" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "ticket" : "String",
+                  "originalFileName" : "String",
+                  "documentType" : "String"
+               }
+            ]
+         ]
+      ]
+   },
+   "OperationInput" : {
+      "criteria" : [
+         {
+            "wsos" : "IModelObject[]",
+            "criteria" : {
+               "relation" : "String",
+               "datasetType" : "String",
+               "namedRefs" : "String[]"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Classification-2007-01-Classification/getFileIds"
+}

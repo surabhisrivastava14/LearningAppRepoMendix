@@ -1,0 +1,48 @@
+{
+   "ServiceOperation" : "Classification-2007-01-Classification/createClassificationObjects",
+   "OperationInput" : {
+      "clsObjs" : [
+         {
+            "properties" : [
+               {
+                  "values" : [
+                     {
+                        "displayValue" : "String",
+                        "dbValue" : "String"
+                     }
+                  ],
+                  "attributeId" : "int"
+               }
+            ],
+            "classId" : "String",
+            "clsObjTag" : "IModelObject",
+            "instanceId" : "String",
+            "wsoId" : "IModelObject",
+            "unitBase" : "UNSPECIFIED METRIC ENGLISH"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "clsObjs" : [
+         {
+            "clsObjTag" : "IModelObject",
+            "instanceId" : "String",
+            "wsoId" : "IModelObject",
+            "unitBase" : "UNSPECIFIED METRIC ENGLISH",
+            "properties" : [
+               {
+                  "values" : [
+                     {
+                        "dbValue" : "String",
+                        "displayValue" : "String"
+                     }
+                  ],
+                  "attributeId" : "int"
+               }
+            ],
+            "classId" : "String"
+         }
+      ],
+      "data" : "IServiceData"
+   }
+}

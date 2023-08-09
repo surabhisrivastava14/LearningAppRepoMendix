@@ -1,0 +1,23 @@
+{
+	"ServiceOperation": "Administration-2015-07-UserManagement\/createOrUpdateUser",
+	"InputType": "TcTrial.CreateOrUpdateUser",
+	"ResponseType": "",
+	"ObjectMapping": "",
+	"OperationInput": {
+		"userInputs": [{
+			"userId": "$Input\/userId",
+			"person": "$Input\/person",
+			"password": "$Input\/password",
+			"defaultGroup": "$Input\/defaultGroup",
+			"newOwner": "$Input\/newOwner",
+			"newOwningGroup": "$Input\/newOwningGroup",
+			"userPropertyMap": {
+				"geography": "$Input\/TcTrial.UserPropertyMap_geography\/geography;AttributeAsArray",
+				"os_username": "$Input\/TcTrial.UserPropertyMap_os_username\/os_username;AttributeAsArray",
+				"volume": "$Input\/TcTrial.UserPropertyMap_volume\/volume;AttributeAsArray"
+			}
+		}]
+	},
+
+	"OperationResponse": {}
+}

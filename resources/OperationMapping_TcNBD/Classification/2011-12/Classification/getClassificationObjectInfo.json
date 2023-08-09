@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Classification-2011-12-Classification\/getClassificationObjectInfo",
+    "InputType":        "TcNBD.getClassificationObjects_input",
+    "ResponseType":     "",
+    "ObjectMapping":    "",
+
+   "OperationInput" : {
+      "fetchDescriptor" : true,
+      "locale" : "en_US",
+      "getOptimizedValues" : true,
+      "icoUids" : "$Input\/ListOfUIDs;AttributeAsArray"
+   },
+   "OperationResponse" : {
+   }
+}

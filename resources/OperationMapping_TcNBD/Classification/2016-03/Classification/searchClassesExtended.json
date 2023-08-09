@@ -1,0 +1,67 @@
+{
+   "ServiceOperation" : "Classification-2016-03-Classification/searchClassesExtended",
+   "OperationInput" : {
+      "sortAttributes" : "int[]",
+      "options" : "int",
+      "searchCriterias" : [
+         {
+            "attributeId" : "int",
+            "query" : "String"
+         }
+      ],
+      "filterForWriteAccess" : "bool"
+   },
+   "OperationResponse" : {
+      "classDescriptions" : [
+         {
+            "classDescriptions" : [
+               {
+                  "classUserData1" : "String",
+                  "classShortName" : "String",
+                  "classImagesLoaded" : "bool",
+                  "classImageDocuments" : [
+                     {
+                        "originalFileName" : "String",
+                        "documentType" : "String",
+                        "ticket" : "String"
+                     }
+                  ],
+                  "parentDefs" : [
+                     {
+                        "classUnitBase" : "int",
+                        "classID" : "String",
+                        "isAbstract" : "bool",
+                        "className" : "String",
+                        "classIconDocument" : {
+                           "documentType" : "String",
+                           "originalFileName" : "String",
+                           "ticket" : "String"
+                        },
+                        "classBO" : "IModelObject",
+                        "classIconLoaded" : "bool"
+                     }
+                  ],
+                  "classDescription" : "String",
+                  "classChildCount" : "int",
+                  "classInstanceCount" : "int",
+                  "classUserData2" : "String",
+                  "classDef" : {
+                     "classIconLoaded" : "bool",
+                     "classBO" : "IModelObject",
+                     "classIconDocument" : {
+                        "ticket" : "String",
+                        "originalFileName" : "String",
+                        "documentType" : "String"
+                     },
+                     "classID" : "String",
+                     "classUnitBase" : "int",
+                     "className" : "String",
+                     "isAbstract" : "bool"
+                  }
+               }
+            ]
+         }
+      ],
+      "svcData" : "IServiceData"
+   }
+}

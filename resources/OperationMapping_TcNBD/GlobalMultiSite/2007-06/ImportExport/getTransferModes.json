@@ -1,0 +1,19 @@
+{
+    "ServiceOperation": "GlobalMultiSite-2007-06-ImportExport\/getTransferModes",
+    "InputType": "",
+    "ResponseType": "",
+    "ObjectMapping": "",
+    "OperationInput": 
+	{
+		"inputs":
+		{
+			"scope": "EXPORT",
+			"schemaFormat": "PLMXML",
+		}
+	},
+    "OperationResponse": ""
+	
+
+}
+
+

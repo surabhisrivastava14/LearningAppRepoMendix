@@ -1,0 +1,129 @@
+{
+   "OperationResponse" : {
+      "keyLOVDefinitionMap" : {
+         "SampleKeyString" : {
+            "sharedSites" : "IModelObject[]",
+            "keyLovEntries" : [
+               {
+                  "lovKey" : "String",
+                  "lovValue" : "String",
+                  "deprecatedSatus" : "bool"
+               }
+            ],
+            "owningSite" : "IModelObject",
+            "keyLovtag" : "IModelObject",
+            "name" : "String",
+            "options" : "int",
+            "id" : "String"
+         }
+      },
+      "classDefinitionMap" : {
+         "SampleKeyString" : {
+            "childCount" : "int",
+            "userData2" : "String",
+            "unitBase" : "UNSPECIFIED METRIC ENGLISH",
+            "shortName" : "String",
+            "instanceCount" : "int",
+            "options" : {
+               "isGroup" : "bool",
+               "isValid" : "bool",
+               "isAbstract" : "bool",
+               "isAssembly" : "bool"
+            },
+            "parent" : "String",
+            "userData1" : "String",
+            "name" : "String",
+            "documents" : [
+               {
+                  "ticket" : "String",
+                  "originalFileName" : "String",
+                  "documentType" : "String"
+               }
+            ],
+            "description" : "String",
+            "viewCount" : "int",
+            "id" : "String"
+         }
+      },
+      "serviceData" : "IServiceData",
+      "classAttributesDefinitionMap" : {
+         "SampleKeyString" : {
+            "configuredKeyLOVDefinitionMap" : {
+               "SampleKeyInt" : {
+                  "owningSite" : "IModelObject",
+                  "keyLovEntries" : [
+                     {
+                        "lovKey" : "String",
+                        "lovValue" : "String",
+                        "deprecatedSatus" : "bool"
+                     }
+                  ],
+                  "keyLovtag" : "IModelObject",
+                  "sharedSites" : "IModelObject[]",
+                  "name" : "String",
+                  "options" : "int",
+                  "id" : "String"
+               }
+            },
+            "attributeDefinitionMap" : {
+               "SampleKeyInt" : {
+                  "dependencyAttribute" : "String",
+                  "classAttributeProperty" : {
+                     "extendedProperties" : [
+                        {
+                           "propertyName" : "String",
+                           "values" : [
+                              {
+                                 "value" : "String"
+                              }
+                           ]
+                        }
+                     ],
+                     "id" : "int",
+                     "description" : "String",
+                     "nonMetricFormat" : {
+                        "maximumValue" : "String",
+                        "format" : {
+                           "formatModifier2" : "int",
+                           "formatLength" : "int",
+                           "formatType" : "int",
+                           "formatModifier1" : "int"
+                        },
+                        "minimumValue" : "String",
+                        "unitName" : "String",
+                        "defaultValue" : "String"
+                     },
+                     "name" : "String",
+                     "arraySize" : "int",
+                     "options" : "int",
+                     "attributeConfiguration" : {
+                        "postConfig" : "String",
+                        "config" : "String",
+                        "preConfig" : "String"
+                     },
+                     "shortName" : "String",
+                     "annotation" : "String",
+                     "metricFormat" : {
+                        "defaultValue" : "String",
+                        "maximumValue" : "String",
+                        "unitName" : "String",
+                        "format" : {
+                           "formatModifier2" : "int",
+                           "formatLength" : "int",
+                           "formatType" : "int",
+                           "formatModifier1" : "int"
+                        },
+                        "minimumValue" : "String"
+                     }
+                  },
+                  "dependencyConfiguration" : "String"
+               }
+            }
+         }
+      }
+   },
+   "OperationInput" : {
+      "classIDs" : "String[]"
+   },
+   "ServiceOperation" : "Classification-2015-10-Classification/getClassDefinitions"
+}

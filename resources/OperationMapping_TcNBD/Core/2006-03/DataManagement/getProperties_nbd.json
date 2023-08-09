@@ -1,0 +1,12 @@
+{
+	"ServiceOperation": "Core-2006-03-DataManagement\/getProperties",
+    "InputType": "TcNBD.GetProperties_nbd_input",
+    "ResponseType": "",
+    "ObjectMapping": "",
+
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "attributes" : "$Input\/TcNBD.GetProperties_nbd_input_referencename_GetProperties_nbd_input\/Property_Reference_name;AttributeAsArray",
+      "objects" : ["$Input\/TcNBD.GetProperties_nbd_input_ModelObject"]
+   }
+}

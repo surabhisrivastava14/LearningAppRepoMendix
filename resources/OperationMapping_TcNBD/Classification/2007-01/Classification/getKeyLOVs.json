@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : {
+      "keyLOVs" : {
+         "SampleKeyString" : {
+            "options" : "int",
+            "keyValuePairs" : {
+               "SampleKeyString" : "String"
+            },
+            "name" : "String"
+         }
+      },
+      "data" : "IServiceData"
+   },
+   "OperationInput" : {
+      "keyLOVIds" : "String[]"
+   },
+   "ServiceOperation" : "Classification-2007-01-Classification/getKeyLOVs"
+}

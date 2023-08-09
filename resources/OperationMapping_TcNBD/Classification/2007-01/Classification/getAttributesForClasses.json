@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Classification-2007-01-Classification/getAttributesForClasses",
+       "InputType":        "TcNBD.getAttributesForClasses_input",
+    "ResponseType":     "",
+    "ObjectMapping":    "",
+
+   "OperationInput" : {
+      "classIds" : ["$Input\/TcNBD.getAttributesForClasses_input_ClassificationObjectInfo\/ClassId;AttributeAsArray"]
+   },
+   "OperationResponse" : {
+   }
+}

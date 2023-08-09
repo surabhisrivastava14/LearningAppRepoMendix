@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "searchCriteria" : [
+         {
+            "classIds" : "String[]",
+            "searchAttributes" : [
+               {
+                  "query" : "String",
+                  "attributeId" : "int"
+               }
+            ],
+            "searchOption" : "int"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "clsObjTags" : {
+         "SampleKeyString" : "IModelObject[]"
+      },
+      "data" : "IServiceData"
+   },
+   "ServiceOperation" : "Classification-2007-01-Classification/search"
+}

@@ -1,0 +1,893 @@
+{
+	".QName": "http://teamcenter.com/Schemas/Core/2013-05/LOV.LOVSearchResults",
+	"moreValuesExist": true,
+	"lovValues": [
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Mfg0ME3DPDFInputs"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"3D PDF Generation Inputs \"Deprecated. See Release Bulletin Teamcenter 9.1\""
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Bom0Part"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"4G Part"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Fnd0AbsActionItem"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Action Item"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Fnd0AbsAlternateGroup"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Alternate Group"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Hmc0AbsBuildListMaster"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Build List Master"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Hmc0AbsBuildListRevisionMaster"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Build List Revision Master"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Psi0AbsChecklist"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Checklist"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Fnd0AbsProduct"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Collaborative Product"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Prg0AbsCriteria"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Criteria"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Hmc0AbsDesignMaster"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Design Master"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Hmc0AbsDesignRevisionMaster"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Design Revision Master"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Prg0AbsEvent"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Event"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Fnd0AbsInterchangeableGrp"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Interchangeable Group"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Att0AbstractMapping"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Mapping"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Fnd0AbstractMarkupSpace"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Markup Space"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Fnd0AbstractOccRevision"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Occurrence Revision"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Bom0AbstractPBEAlignment"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract PBE Alignment"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Fnd0AbstractPersistentProxy"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Persistent Proxy"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Prg0AbsPlan"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Plan"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Prg0AbsPlanAttributeSet"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Plan Attribute Set"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Prg0AbsProgramPlan"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Program"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Prg0AbsProjectPlan"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Project"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Mat1MetaParameter"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Property Descriptor"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Ssm0AbstractTemplate"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Simulation Template"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Cpd0AbsSubsetItm"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Subset Item"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Cpd0AbsSubsetItmMaster"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Subset Item Master"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Cpd0AbsSubsetItmRevision"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Subset Item Revision"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Cpd0AbsSubsetItmRevisionMaster"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Subset Item Revision Master"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Fnd0AbsSubstituteGroup"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Substitute Group"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Ssm0AbstractSynthesis"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Abstract Synthesis"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"EPMAcknowledgeTask"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Acknowledge Task"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Cm0ActionItem"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Action Item"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Cm0ActionItemMaster"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Action Item Master"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Cm0ActionItemRevision"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Action Item Revision"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Cm0ActionItemRevisionMaster"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Action Item Revision Master"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"ActivityCost"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Activity Cost"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"ActivityEntryValue"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Activity Entry Value"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"ADA_License"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"ADA License"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"EPMAddStatusTask"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Add Status Task"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Cpd0AdhesiveBead"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Adhesive Bead Weld"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Cpd0AdhesiveDollop"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Adhesive Dollop Weld"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Cpd0AdhesiveFill"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Adhesive Fill"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Fnd0AdminLOVValue"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Administrative List Of Values"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"DC_Admin"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Administrative Object"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"AdobeIllustrator"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"AdobeIllustrator"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"SavedSearch"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Advanced Saved Search"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Seg0AlignmentMap"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Alignment Map"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Seg0AlignmentMapMaster"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Alignment Map Master"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Seg0AlignmentMapRevision"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Alignment Map Revision"
+				]
+			},
+			"childRows": []
+		},
+		{
+			"uid": "",
+			"propInternalValues": {
+				"lov_values": [
+					"Seg0AlignmentMapRevisionMaster"
+				]
+			},
+			"propInternalValueTypes": {
+				"lov_values": 8
+			},
+			"propDisplayValues": {
+				"lov_values": [
+					"Alignment Map Revision Master"
+				]
+			},
+			"childRows": []
+		}
+	],
+	"behaviorData": {
+		"lovUsage": 2,
+		"style": "Standard",
+		"rangeUpperLimit": "",
+		"rangeLowerLimit": "",
+		"columnNames": {
+			"lovValueProp": "lov_values",
+			"lovDescrProp": "",
+			"displayNames": {
+				"lov_values": "Value"
+			},
+			"columnManagementFlags": {
+				"lov_values": 3
+			}
+		}
+	},
+	"lovData": {
+		"style": "Standard",
+		"additionalValuesSkipped": false,
+		"currentIndex": 50,
+		"filterData": {
+			"filterString": "",
+			"maxResults": 2000,
+			"numberToReturn": 50,
+			"sortPropertyName": "",
+			"order": 0
+		},
+		"lovs": [
+			{
+				"objectID": "DyKAAAQwJIlHFD",
+				"uid": "DyKAAAQwJIlHFD",
+				"className": "ListOfValuesString",
+				"type": "ListOfValuesStringExtent"
+			}
+		]
+	},
+	"ServiceData": {}
+}
